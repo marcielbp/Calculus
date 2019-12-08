@@ -1,4 +1,10 @@
-﻿# Teste da reta vertical
+ <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+# Teste da reta vertical
 
 
 Seja uma curva definida no plano $x$ $y$,a curva irá representar uma função se, somente se, nenhuma reta vertical cortar a curva em mais de um ponto.

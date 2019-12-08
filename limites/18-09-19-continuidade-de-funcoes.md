@@ -1,4 +1,14 @@
-﻿#### [aula anterior](./17-09-19-definicao-precisa-de-limite.html) | [próxima aula](./23-09-19-assintotas-verticais-e-horizontais.html)
+﻿ <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+   <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+ <script>mermaid.initialize({startOnLoad:true});</script>
+
+#### [aula anterior](./17-09-19-definicao-precisa-de-limite.html) | [próxima aula](./23-09-19-assintotas-verticais-e-horizontais.html)
 
 #### Digitado por [$\color{black} \text{Diefesson de Sousa Silva - 471942}$](mailto://diefesson.so@gmail.com)
 

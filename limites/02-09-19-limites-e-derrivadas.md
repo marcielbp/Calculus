@@ -1,4 +1,4 @@
- <script>
+﻿ <script>
   MathJax = {
     tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
   };
@@ -12,7 +12,7 @@
 
 #### Digitado por [$\color{black}\text{ Diefesson de Sousa Silva - 471842}$](mailto://diefesson.so@gmail.com)
 
-# Limites e derivadas
+# Limites e derrivadas
 
 ## Motivação
 

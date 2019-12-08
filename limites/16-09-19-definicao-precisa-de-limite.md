@@ -1,6 +1,6 @@
 ﻿ <script>
   MathJax = {
-    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    tex: {inlineMath: [['$$', '$$'],['$', '$'], ['\\(', '\\)']]}
   };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
@@ -43,7 +43,7 @@ $$
 |x - 1| < \delta \rightarrow |f(x) - 2| < 0,2
 $$
 
-$\bold{x < 1}$ | $\bold{f(x)}$ | $\bold{x > 1}$ | $\bold{f(x)}$
+${x < 1}$ | ${f(x)}$ | ${x > 1}$ | ${f(x)}$
 -|-|-|-
 $0$    | $6,000$ | $2$    | $4,000$
 $0,5$  | $3,725$ | $1,5$  | $1,875$

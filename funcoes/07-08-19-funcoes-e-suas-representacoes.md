@@ -4,6 +4,9 @@
   };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+   <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+ <script>mermaid.initialize({startOnLoad:true});</script>
 
 # Funções e suas representações
 
@@ -14,6 +17,22 @@ Em geral consideramos as funções para qual $D$ e $E$ são conjuntos. $D$ é de
 O número $f(x)$ para todo $x$ que pertença a $D$, define um novo conjunto chamado de imagem, ou $Im$. A imagem é constituída por todos os valores $f(x)$ que são obtidos pela lei de formação de todos os valores de $x$ no domínio.
 
 Caso não seja possível aplicar a lei $f(x)$ sobre algum valor de $x$, onde $x$ seja real, diz-se que $x$ não pertence ao domínio de $f$.
+
+ Here is one mermaid diagram:
+ <div class="mermaid">
+   graph TD
+   A[Client] --> B[Load Balancer]
+   B --> C[Server1]
+   B --> D[Server2]
+ </div>
+
+ And here is another:
+ <div class="mermaid">
+   graph TD
+   A[Client] -->|tcp_123| B(Load Balancer)
+   B -->|tcp_456| C[Server1]
+   B -->|tcp_456| D[Server2]
+ </div>
 
 ![dominio e imagem](./res/dominio-e-imagem.jpg)
 

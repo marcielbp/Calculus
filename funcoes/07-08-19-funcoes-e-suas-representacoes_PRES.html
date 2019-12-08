@@ -1,14 +1,10 @@
- <script>
-  MathJax = {
-    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
-  };
-  </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-  
-   <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
- <script>mermaid.initialize({startOnLoad:true});</script>
  
-  <style>
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
@@ -20,7 +16,18 @@
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
     </style>
-<textarea id="source">
+    <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+   <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+ <script>mermaid.initialize({startOnLoad:true});</script>
+  </head>
+  <body>
+    <textarea id="source">
 
 class: center, middle
 
@@ -35,7 +42,7 @@ class: center, middle
 3. ...
 
 ---
-
+ 
 # Introduction
 
 Uma função $f$ é uma lei que associa a cada elemento $x$ pertencente a um domínio $D$, exatamente um elemento $f(x)$ em um conjunto $E$.
@@ -109,6 +116,7 @@ $$\Z = \{..., -3, -2, -1, 0, 1, 2, 3,...\}$$
 ### Números reais ($\R$)
 
 $$\R = \{..., -2, ..., -\frac{1}{2}, ..., 0, ..., 4, ..., \frac{12}{5}\}$$
+
 ---
 
     </textarea>

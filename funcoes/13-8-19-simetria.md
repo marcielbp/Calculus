@@ -1,4 +1,10 @@
-﻿# Simetria
+<script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+# Simetria
 
 Se uma função satisfaz $f(x) = f(-x)$, diz-se que $f$ é uma função par. Por sua vez, se $f$ satisfaz $f(x) = -f(x)$, diz-se que $f$ é uma função impar.
 

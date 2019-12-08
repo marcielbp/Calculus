@@ -1,22 +1,4 @@
- 
- <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-    <meta charset="utf-8">
-    <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
-      body { font-family: 'Droid Serif'; }
-      h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
-        font-weight: normal;
-      }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-    </style>
-    <script>
+ <script>
   MathJax = {
     tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
   };
@@ -25,12 +7,6 @@
   
    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
  <script>mermaid.initialize({startOnLoad:true});</script>
-  </head>
-  <body>
-    <textarea id="source">
-
-class: center, middle
-
 # Title
 
 ---
@@ -118,10 +94,3 @@ $$\Z = \{..., -3, -2, -1, 0, 1, 2, 3,...\}$$
 $$\R = \{..., -2, ..., -\frac{1}{2}, ..., 0, ..., 4, ..., \frac{12}{5}\}$$
 
 ---
-
-    </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-    </script>
-    <script>
-      var slideshow = remark.create();
-    </script>

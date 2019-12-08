@@ -1,4 +1,11 @@
-﻿# Funções e suas representações
+ <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+# Funções e suas representações
 
 Uma função $f$ é uma lei que associa a cada elemento $x$ pertencente a um domínio $D$, exatamente um elemento $f(x)$ em um conjunto $E$.
 

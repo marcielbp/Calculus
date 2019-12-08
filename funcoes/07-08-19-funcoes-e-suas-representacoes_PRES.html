@@ -15,9 +15,18 @@
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
     </style>
+  <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+   <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+ <script>mermaid.initialize({startOnLoad:true});</script>
   </head>
   <body>
-    <textarea id="source">
+<textarea id="source">
 
 class: center, middle
 
@@ -32,8 +41,18 @@ class: center, middle
 3. ...
 
 ---
+      
+# Funções e suas representações
 
-# Introduction
+Uma função $f$ é uma lei que associa a cada elemento $x$ pertencente a um domínio $D$, exatamente um elemento $f(x)$ em um conjunto $E$.
+
+Em geral consideramos as funções para qual $D$ e $E$ são conjuntos. $D$ é denominado domínio da função $f$, e $E$ por sua vez representa o contradomínio.
+
+---
+  
+O número $f(x)$ para todo $x$ que pertença a $D$, define um novo conjunto chamado de imagem, ou $Im$. A imagem é constituída por todos os valores $f(x)$ que são obtidos pela lei de formação de todos os valores de $x$ no domínio.
+
+Caso não seja possível aplicar a lei $f(x)$ sobre algum valor de $x$, onde $x$ seja real, diz-se que $x$ não pertence ao domínio de $f$.
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">

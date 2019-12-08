@@ -1,4 +1,10 @@
-﻿# Funções algébricas
+ <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+# Funções algébricas
 
 Denominamos funções algébricas todas as funções obtidas por operações algébricas como adicção , produto e raiz a partir de polinômios.
 

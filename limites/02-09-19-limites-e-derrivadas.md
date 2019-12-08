@@ -1,8 +1,18 @@
-﻿#### você está na primeira aula | [proxima aula](./03-09-19-limites-e-derrivadas.html)
+ <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+   <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+ <script>mermaid.initialize({startOnLoad:true});</script>
+
+#### você está na primeira aula | [proxima aula](./03-09-19-limites-e-derrivadas.html)
 
 #### Digitado por [$\color{black}\text{ Diefesson de Sousa Silva - 471842}$](mailto://diefesson.so@gmail.com)
 
-# Limites e derrivadas
+# Limites e derivadas
 
 ## Motivação
 

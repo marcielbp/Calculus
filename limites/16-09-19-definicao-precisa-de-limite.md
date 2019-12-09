@@ -17,9 +17,7 @@
 Primeiramente, vamos observar o comportamento de uma função próximo a um ponto de interesse.
 
 Suponha um função $f(x)$ definida como:
-
 $$f(x) \begin{cases} 2x - 1 & , x \ne 3 \\6 &, x = 3\end{cases}$$
-
 Observe a afirmação, qual a proximidade que $x$ deve ter de $3$ para que $f(x)$ seja diferente de $5$ em menos que $0,1$?
 
 Veja que a medida que $x \rightarrow 3^+$ ou $x \rightarrow 3^-$, $f(x)$ se aproxima de $5$, apesar que $f(3) = 6$. Para encontramos uma distância mínima de $3$ para $f(x)$ ser próximo de $5$ por um valor menor que $0,1$ devemos realizar a desigualdade:

@@ -16,13 +16,13 @@
 
 **DEFINIÇÃO:** seja $f$ uma função definida em algum lugar aberto que contenha o número $a$, exceto, póssivelmente o próprio $a$. Dizemos que o limite de $f(x)$ quando $x$ tende a $a$ é $L$ e escrevemos:
 
-$\lim_{x \rightarrow a} f(x) = L$
+$$\lim_{x \rightarrow a} f(x) = L$$
 
 Se para o número $\epsilon > 0$ houver um número $\delta > 0$, tal que:
 
 $
-\text{se } 0 < |x - a| < \delta \\
-\text{então} |f(x) - L| < \epsilon
+\text{se } 0 < \|x - a\| < \delta \\
+\text{então} \|f(x) - L\| < \epsilon
 $
 
 Ou seja:
@@ -33,7 +33,7 @@ Consequentemente as definições de limites laterais se tornam:
 
 *1.* Limite a esquerda.
 
-$\lim_{x \rightarrow a^-} f(x) = L_1$
+$$\lim_{x \rightarrow a^-} f(x) = L_1$$
 
 Se para todo número $\epsilon > 0$, existe um $\delta > 0$, tal que:
 
@@ -41,11 +41,11 @@ $a - \delta < x < a$
 
 Então:
 
-$|f(x) - L_1| < \epsilon$
+$\|f(x) - L_1\| < \epsilon$
 
 *2.* Limite a direita.
 
-$\lim_{x \rightarrow a^+} f(x) = L_2$
+$$\lim_{x \rightarrow a^+} f(x) = L_2$$
 
 Se para todo número $\epsilon > 0$, existe um $\delta > 0$, tal que:
 
@@ -53,7 +53,7 @@ $a < x < a + \delta$
 
 Então:
 
-$|f(x) - L_1| < \epsilon$
+$\|f(x) - L_1\| < \epsilon$
 
 **EXEMPLO:** Demonstrar que
 

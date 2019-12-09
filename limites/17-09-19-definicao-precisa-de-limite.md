@@ -20,10 +20,7 @@ $$\lim_{x \rightarrow a} f(x) = L$$
 
 Se para o número $\epsilon > 0$ houver um número $\delta > 0$, tal que:
 
-$
-\text{se } 0 < \|x - a\| < \delta \\
-\text{então} \|f(x) - L\| < \epsilon
-$
+$\text{se } 0 < |x - a| < \delta$ então $|f(x) - L| < \epsilon$
 
 Ou seja:
 

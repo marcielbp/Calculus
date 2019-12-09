@@ -1,5 +1,5 @@
 uses: frabert/replace-string-action@v1.1
 with:
   pattern: '\$\$'
-  string: '\$\$'
-  replace-with: '\$'
+  string: '$$'
+  replace-with: '$'

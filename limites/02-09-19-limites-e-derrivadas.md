@@ -38,19 +38,19 @@ Observe as perguntas a seguir:
 
 **R:** neste caso, podemos apelar para a relação $V_m = \frac{\Delta S}{\Delta t}$
 
-$$
+$
 V_m = \frac{8\text{ m}}{4 \text{ s}} = 2 \text{ m/s}
-$$
+$
 
 *2)* A velocidade do veículo é constante ou variável?
 
 **R:** veja a velocidade média nesses casos
 
-$$V_m(0 \text{ até } 2) = \frac{2 \text{ m}}{2 \text{ s}} = 1 \text{ m/s}$$
+$V_m(0 \text{ até } 2) = \frac{2 \text{ m}}{2 \text{ s}} = 1 \text{ m/s}$
 
-$$V_m(2 \text{ até } 4) = \frac{2 \text{ m}}{1 \text{ s}} = 2 \text{ m/s}$$
+$V_m(2 \text{ até } 4) = \frac{2 \text{ m}}{1 \text{ s}} = 2 \text{ m/s}$
 
-$$V_m(0 \text{ até } 4) = \frac{4 \text{ m}}{3 \text{ s}} = 1,333... \text{ m/s}$$
+$V_m(0 \text{ até } 4) = \frac{4 \text{ m}}{3 \text{ s}} = 1,333... \text{ m/s}$
 
 Perceba que, em diferentes trechos, a velocidade média é alterada.
 
@@ -74,21 +74,21 @@ Veja graficamente o comportamento da função:
 
 **IMPORTANTE:** veja que não precisamos calcular $f(2)$ para ver aproximadamente a aproximação $f(2) = 4$, ou seja, podemos visualizar o conceito que o $\color{red} \text{limite}$ da função $f(x)$ quando $x$ está próximo de $2$ como:
 
-$$
+$
 \lim_{x \rightarrow 2} f(x) = 4 \text{ ou } \lim_{x \rightarrow 2} (x^2 - x + 2) = 4
-$$
+$
 
 **DEFINIÇÃO:** suponha que $f(x)$ seja definido quando $x$ está próximo do ponto $a$, sem necessariamente, existir o ponto $a$. Então:
 
-$$
+$
 \lim_{x \rightarrow a} f(x) = L
-$$
+$
 
 E dizemos "o limite de $f(x)$, quando $x$ tende a $a$ é igual a $L$, se pudermos tornar os valores de $f(x)$ arbitrariamente próximos de a, mas não necessariamente, resolvendo $f(a)$.
 
 Como determinar o valor da função:
 
-$$f(x) = \frac{x^2 - 1}{x -1}$$
+$f(x) = \frac{x^2 - 1}{x -1}$
 
 Próximo de $x = 1$, sabendo que $f(x)$ não pode ser calculado?
 

@@ -22,21 +22,21 @@ Verificamos anteriormente que uma função é continua s as três condições a 
 
 *2.*
 
-$$\lim_{x \rightarrow a} f(x) \text{ existe}$$
+$\lim_{x \rightarrow a} f(x) \text{ existe}$
 
 *3.* 
 
-$$\lim_{x \rightarrow a} f(x) = f(a)$$
+$\lim_{x \rightarrow a} f(x) = f(a)$
 
 Temos, conseguente, conceitos sobre continuidade lateral:
 
 **DEFINIÇÃO:** Uma função $f$ é $\color{red}{\text{continua a direita }}$ em um número $\color{red} a$ se:
 
-$$\lim_{x \rightarrow a^+} f(x) = f(a)$$
+$\lim_{x \rightarrow a^+} f(x) = f(a)$
 
 E é $\color{red}\text{continua pela esquerda}$ se:
 
-$$\lim_{x \rightarrow a^-} f(x) = f(a)$$
+$\lim_{x \rightarrow a^-} f(x) = f(a)$
 
 Consequentemente temos a definição a seguir:
 
@@ -58,35 +58,35 @@ Algumas classes de funções mostradas a seguir são continuas em todos os ponto
 
 **a.** Funções polinomiais :
 
-$$x^4 - x^2 + 16x$$
+$x^4 - x^2 + 16x$
 
 **b.** Funções trigonométricas:
 
-$$\cos(3x)$$
+$\cos(3x)$
 
 **c.** Funções exponenciais:
 
-$$e^{-3x}$$
+$e^{-3x}$
 
 **d.** Funções racionais:
 
-$$\frac{x^2 - 3x}{x - 1}$$
+$\frac{x^2 - 3x}{x - 1}$
 
 **e.** Funções trigonométricas inversas:
 
-$$\arcsin(x)$$
+$\arcsin(x)$
 
 **f.** Funções raízes:
 
-$$\sqrt{x^2 - 3}, \text{ se } x \ge \sqrt{3}$$
+$\sqrt{x^2 - 3}, \text{ se } x \ge \sqrt{3}$
 
 **g.** Funções logarítmicas:
 
-$$\ln(3x), \text{ se } x > 0$$
+$\ln(3x), \text{ se } x > 0$
 
 **EXEMPLO:** dada a função:
 
-$$f(x) = \frac{\sin(x)}{2 + \cos(x)}$$
+$f(x) = \frac{\sin(x)}{2 + \cos(x)}$
 
 **a)** A função é continua? em que intervalo?
 
@@ -94,52 +94,52 @@ $$f(x) = \frac{\sin(x)}{2 + \cos(x)}$$
 
 **b)** Determinar
 
-$$
+$
 \lim_{x \rightarrow \pi} \left(
 \frac{\sin(x)}{2 + cos(x)}
 \right)
-$$
+$
 
 **R:**
 
-$$
+$
 \frac
 {\lim_{x \rightarrow \pi} (\sin(x))}
 {\lim_{x \rightarrow \pi}(2) + \lim_{x \rightarrow \pi}(\cos(x)}
 \Leftrightarrow
-$$
+$
 
-$$
+$
 \frac{0}{2 - 1} = 0
-$$
+$
 
 **TEOREMA:** Seja $f$ $\color{red}\text{continua}$ em $b$ e:
 
-$$\lim_{x \rightarrow a} f(x) = b$$
+$\lim_{x \rightarrow a} f(x) = b$
 
 Então:
 
-$$
+$
 \lim_{x \rightarrow a}(f(g(x))) = f(b)
-$$
+$
 
 Ou seja:
 
-$$
+$
 \lim_{x \rightarrow a}(f(g(x)) = f(\lim_{x \rightarrow a}g(x))
-$$
+$
 
 **EXEMPLO:** Calcular
 
-$$\lim_{x \rightarrow a} \sqrt[n]{x^2}$$, com $a$ positivo inteiro:
+$\lim_{x \rightarrow a} \sqrt[n]{x^2}$, com $a$ positivo inteiro:
 
-$$\lim_{x \rightarrow a} \sqrt[n]{x^2} \Leftrightarrow$$
+$\lim_{x \rightarrow a} \sqrt[n]{x^2} \Leftrightarrow$
 
-$$\sqrt[n]{\lim_{x \rightarrow a} (x^2)} \Leftrightarrow$$
+$\sqrt[n]{\lim_{x \rightarrow a} (x^2)} \Leftrightarrow$
 
-$$\sqrt[n]{\lim_{x \rightarrow a} (x)^2} \Leftrightarrow$$
+$\sqrt[n]{\lim_{x \rightarrow a} (x)^2} \Leftrightarrow$
 
-$$\sqrt[n]{a^2}$$
+$\sqrt[n]{a^2}$
 
 **TEOREMA:** se $g$ é continua em $a$ e $f$ é continua em $g(a)$, então a função composta $(f \circ g)(x)$ é continua em $a$
 
@@ -155,11 +155,11 @@ Supondo que $f$ seja continua em um intervalo $[a, b]$ e seja $N$um número qual
 
 Imaginesmos funções que: Dado um intervalo $(-\infty, a)$ ou $(a, +\infty)$. Se observarmos o comportamento da função $f(x)$ nesses intervalos, quando $x \rightarrow -\infty$ ou $x \rightarrow +\infty$, é possivel que o valor de $f(x)$ tenda a um número real, ou seja:
 
-$$
+$
 \lim_{x \rightarrow -\infty} = L_1
 \text{ ou }
 \lim_{x \rightarrow +\infty} = L_2
-$$
+$
 
 Dizemos que as retas $l_1$ e $L_2$, caso existam, são assintotas horizontais.
 

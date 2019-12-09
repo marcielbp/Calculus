@@ -28,10 +28,10 @@ Veja que nesse caso, não se pode calcular o valor da função diretamente em $x
 
 **OBS:** a função $\sin(x)$ ou qualquer outra função trigonométrica só pode ser calculada para valores em radianos. Ou seja:
 
-$$
+$
 \sin(0) = \sin(0 \text{ rad}) \\
 \sin(\pi) = \sin(\pi \text{ rad}) = \sin(180\degree)
-$$
+$
 
 Observando a função $\frac{\sin(x)}{x}$, na vizinhança de $x = 0$ obtém-se a tabela a seguir:
 
@@ -45,17 +45,17 @@ $-0,01$ | $0,999$ | $0,01$ | $0,999$
 
 Observe que o limite de $f(x)$ se aproxima de $1$ a medida que $x \rightarrow 0$, ou  seja:
 
-$$\lim_{x \rightarrow a}\left(\frac{\sin(x)}{x}\right) = 1$$
+$\lim_{x \rightarrow a}\left(\frac{\sin(x)}{x}\right) = 1$
 
 ## Exercício 1
 
 Estime o limite da função:
 
-$$f(x) = \frac{\cos(x)}{2x}$$
+$f(x) = \frac{\cos(x)}{2x}$
 
 A medida que $x$ se aproximada de 0, ou seja:
 
-$$\lim_{x \rightarrow a}\left(\frac{cos(s)}{2x}\right)$$
+$\lim_{x \rightarrow a}\left(\frac{cos(s)}{2x}\right)$
 
 $\bold{x < 0}$ | $\bold{f(x)}$ | $\bold{x > 0}$ | $\bold{f(x)}$
 -|-|-|-
@@ -81,13 +81,13 @@ Escrevemos os limites laterais na forma.
 
 Dizemos que o limite de uma função em torno de $a$ é $\lim_{x \rightarrow a} f(x) = L$, se, e somente se, seus limites laterais forem iguais, ou seja:
 
-$$\lim_{x \rightarrow a^-} f(x) = \lim_{x \rightarrow a^+} f(x) = L$$
+$\lim_{x \rightarrow a^-} f(x) = \lim_{x \rightarrow a^+} f(x) = L$
 
 ## Limites infinitos
 
 Dizemos que caso o limite de uma função no ponto $x = a$ cresça positivamente ou negativamente de forma indefinida, seu limite será infinito, ou seja:
 
-$$\lim_{x \rightarrow a} f(x) = +\infty \text{ ou } \lim_{x \rightarrow a} f(x) = -\infty$$
+$\lim_{x \rightarrow a} f(x) = +\infty \text{ ou } \lim_{x \rightarrow a} f(x) = -\infty$
 
 Dizemos nesse caso que:
 

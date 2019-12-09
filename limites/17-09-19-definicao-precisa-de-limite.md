@@ -20,7 +20,7 @@ $$\lim_{x \rightarrow a} f(x) = L$$
 
 Se para o número $\epsilon > 0$ houver um número $\delta > 0$, tal que:
 
-$\text{se } 0 < |x - a| < \delta$ então $|f(x) - L| < \epsilon$
+$\text{se } 0 < \|x - a\| < \delta$ então $\|f(x) - L\| < \epsilon$
 
 Ou seja:
 
@@ -83,7 +83,7 @@ $\lim_{x \rightarrow a} f(x) = -\infty$
 Significa que para todo número negativo $N$
 existem um número positivo $\delta_2$, tal que :
 
-$0 < | x - a | < \delta$
+$0 < \| x - a \| < \delta$
 
 $f(x) < N$ 
 

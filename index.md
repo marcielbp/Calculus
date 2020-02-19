@@ -1,3 +1,5 @@
+[Resultados Análise Khan Academy 2019.2](https://marcielbp.github.io/Calculus/resultados/graficos.md) 
+
 [Back to Index](https://marcielbp.github.io/Calculus/) 
 
 | Class | Note |Slides|
